@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="映像クリエイターcovoxのポートフォリオサイト。モーショングラフィックス・MV・テキストPV等の制作実績とご依頼はこちら。">
+  <meta property="og:title" content="WORKS — covox">
+  <meta property="og:description" content="映像クリエイターcovoxのポートフォリオサイト。">
+  <meta property="og:image" content="/images/og-image.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>WORKS — covox</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">COVOX</a>
+      <nav class="site-nav">
+        <a href="index.html">TOP</a>
+        <a href="works.html" class="active">WORKS</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="profile.html">PROFILE</a>
+      </nav>
+      <div class="header-sns">
+        <a href="https://x.com/channel3_jp" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+          <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+        </a>
+      </div>
+      <button class="hamburger" aria-label="メニュー">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav">
+      <a href="index.html">TOP</a>
+      <a href="works.html" class="active">WORKS</a>
+      <a href="contact.html">CONTACT</a>
+      <a href="profile.html">PROFILE</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Filter -->
+    <div class="works-header">
+      <h1 class="section-title">WORKS</h1>
+      <div class="filters">
+        <button class="filter active" data-category="all">ALL</button>
+        <button class="filter" data-category="mv">Music Video</button>
+        <button class="filter" data-category="textpv">Text PV</button>
+        <button class="filter" data-category="motion">Motion Graphics</button>
+        <button class="filter" data-category="logo">Logo Motion</button>
+        <button class="filter" data-category="live">Live Visual</button>
+        <button class="filter" data-category="other">Other</button>
+      </div>
+    </div>
+
+    <!-- Works Grid (populated by JS) -->
+    <div class="works-grid-section">
+      <div class="works-grid" id="works-grid"></div>
+    </div>
+
+    <!-- Footer links -->
+    <div class="works-footer">
+      <p class="works-note">上記の他、非公開実績あり</p>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-copy">© 2026 covox</span>
+      <nav class="footer-nav">
+        <a href="index.html">TOP</a>
+        <a href="works.html">WORKS</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="profile.html">PROFILE</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
