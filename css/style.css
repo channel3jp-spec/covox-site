@@ -705,6 +705,13 @@ hr.section-divider {
   line-height: 1.7;
 }
 
+.mail-english {
+  font-size: 12px;
+  color: var(--accent);
+  margin-top: 8px;
+  letter-spacing: 0.3px;
+}
+
 /* Process */
 .process-list {
   display: flex;
