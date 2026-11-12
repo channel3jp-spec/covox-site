@@ -92,6 +92,13 @@ const works = [
     url: "https://www.youtube.com/watch?v=jxUzUXnYsMs"
   },
   {
+    title: "DESHO? (feat. SO87) / あかつき るき",
+    artist: "あかつき るき",
+    category: "mv",
+    thumbnail: "https://img.youtube.com/vi/4EsRvcXB3vg/maxresdefault.jpg",
+    url: "https://www.youtube.com/watch?v=4EsRvcXB3vg"
+  },
+  {
     title: "Adobe Creative — 魔法を創造する。",
     artist: "covox",
     category: "motion",
