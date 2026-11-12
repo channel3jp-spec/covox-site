@@ -85,6 +85,13 @@ const works = [
     url: "https://www.youtube.com/watch?v=g_Mo5VQEbE0"
   },
   {
+    title: "勘違いしてもいいよ / 星崎（Cover）",
+    artist: "星崎",
+    category: "mv",
+    thumbnail: "https://img.youtube.com/vi/jxUzUXnYsMs/maxresdefault.jpg",
+    url: "https://www.youtube.com/watch?v=jxUzUXnYsMs"
+  },
+  {
     title: "Adobe Creative — 魔法を創造する。",
     artist: "covox",
     category: "motion",
